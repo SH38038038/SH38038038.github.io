@@ -52,7 +52,7 @@
 
   <!-- GitHub link -->
   
-  <li class="icon-link-item"><a href="https://github.com/xyz987164" class="icon-link" itemprop="sameAs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <li class="icon-link-item"><a href="https://github.com/SH38038038" class="icon-link" itemprop="sameAs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve" width="28">
 <path id="GitHub" fill-rule="evenodd" clip-rule="evenodd" fill="#D1CECC" d="M14.01,0C6.27,0-0.01,6.28-0.01,14.02
   c0,6.19,4.02,11.45,9.59,13.3c0.7,0.13,0.96-0.3,0.96-0.68c0-0.33-0.01-1.21-0.02-2.38c-3.9,0.85-4.72-1.88-4.72-1.88
@@ -97,7 +97,7 @@
 
   <!-- Website link -->
   
-  <li class="icon-link-item"><a href="https://ug-hongseohyeon.blogpro.so/" class="icon-link" itemprop="url"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <li class="icon-link-item"><a href="https://xyz987164.tistory.com/" class="icon-link" itemprop="url"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve" width="28">
 <path id="Website" fill="#D1CECC" d="M14.83,7.6c0.03,0.08,0.03,0.14,0,0.19s-0.08,0.07-0.17,0.07c-0.12,0-0.26-0.01-0.4-0.04
   s-0.2-0.06-0.18-0.1c0.15-0.15,0.16-0.26,0.03-0.33c-0.13-0.07-0.27-0.11-0.42-0.11s-0.25-0.04-0.3-0.09s-0.03-0.09,0.05-0.09
@@ -282,8 +282,70 @@
     </ul>
   </div>
 </div>
+<br>
+<div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <meta itemprop="creator" content="UG HONGSEOHYEON" itemtype="http://schema.org/Person" />
+  <h3 class="resume-item-title" itemprop="name">ICEY (Interactive Team Collaboration Platform)</h3>
+  <h4 class="resume-item-details" itemprop="description">Backend Lead Developer • 2025.04 — 2025.07</h4>
+  <div class="resume-item-copy">
+    <p>Interactive collaboration tool enabling anonymous team bonding, casual engagement, and game-like interactions before offline meetings.</p>
+    <strong>Key Features:</strong>
+    <ul>
+      <li>AI-powered small talk: generate casual questions & tips with Gemini API, practice in-app</li>
+      <li>Anonymous team space for pre-meeting socialization</li>
+      <li>Balance Game, personal memo board, and direct messaging features</li>
+      <li>Schedule coordination for arranging offline meetups</li>
+    </ul>
+    <strong>Technical Contributions:</strong>
+    <ul>
+      <li>Implemented Kakao & Google social login</li>
+      <li>Integrated Gemini API for balance game and small talk generation</li>
+      <li>Developed SSE-based real-time notification system</li>
+      <li>Designed and deployed backend on GCP with CI/CD pipeline</li>
+    </ul>
+  </div>
+</div>
+<br>
+<div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <meta itemprop="creator" content="UG HONGSEOHYEON" itemtype="http://schema.org/Person" />
+  <h3 class="resume-item-title" itemprop="name">Moyora (Interest-based Local Community Platform)</h3>
+  <h4 class="resume-item-details" itemprop="description">Project Manager & Solo Backend Developer • 2025.03 — 2025.08</h4>
+  <div class="resume-item-copy">
+    <p>Community platform designed to foster local gatherings based on shared interests, integrating authentication, recommendation, and real-time communication features.</p>
+    
+    <strong>Key Features:</strong>
+    <ul>
+      <li>Explore, apply, and join gatherings based on user interests via Elasticsearch-powered search</li>
+      <li>Recommend groups by analyzing user activity logs and extracting interest tags</li>
+      <li>Enhance security through ID photo-based identity verification</li>
+      <li>Board system: post CRUD, join/accept/decline, comments, and notice (one per group)</li>
+      <li>Group chat and real-time notifications for applications, approvals, comments, and chats</li>
+      <li>Rating system for gathering feedback and satisfaction evaluation</li>
+    </ul>
 
-        
+    <strong>Technical Contributions:</strong>
+    <ul>
+      <li><u>Phase 1 (Team Project Implementation):</u></li>
+      <ul>
+        <li>Implemented Kakao social login with Spring Security OAuth2</li>
+        <li>Built ID photo-based identity verification system</li>
+        <li>Developed board features: post CRUD, applications (join/accept/decline), comments, notice (one per group)</li>
+        <li>Applied JWT-based authentication & authorization</li>
+        <li>Optimized tag search performance with Redis caching</li>
+        <li>Deployed backend using Docker & GCP Cloud Run</li>
+      </ul>
+      <li><u>Phase 2 (Individual Refactoring & Extension):</u></li>
+      <ul>
+        <li>Replaced SQL-based search with Elasticsearch engine (morphological analysis, n-gram, fuzziness)</li>
+        <li>Enhanced recommendation system via AI-powered tag extraction using Gemini API</li>
+        <li>Extended notice system into group chat functionality</li>
+        <li>Implemented SSE-based real-time notifications (applications, approvals, comments, chats)</li>
+        <li>Added rating system for gathering satisfaction feedback</li>
+      </ul>
+    </ul>
+  </div>
+</div>
+
 
       </section>
       <!-- end Projects -->
@@ -308,9 +370,12 @@
   </div>
 
   <div class="resume-item">
-    <h4 class="resume-item-details">Database & Infrastructure</h4>
-    <p class="resume-item-copy">Skilled in MySQL, Redis, and Elasticsearch. Familiar with CI/CD pipelines, Docker, Kubernetes, and deploying on cloud platforms like GCP and AWS.</p>
-  </div>
+  <h4 class="resume-item-details">Database & Infrastructure</h4>
+  <p class="resume-item-copy">
+    Skilled in MySQL, Redis, Elasticsearch, and MongoDB.  
+    Familiar with CI/CD pipelines, Docker, Kubernetes, and deploying on cloud platforms like GCP and AWS.
+  </p>
+</div>
 
   <div class="resume-item">
     <h4 class="resume-item-details">Version Control & Collaboration</h4>
@@ -358,6 +423,16 @@
     <h4 class="resume-item-details">Korea Data Agency (K-DATA) &bull; 2024</h4>
     <p class="resume-item-copy">Certified SQL Developer. Certification Number: SQLD-050000676.</p>
   </div>
+
+
+  <div class="resume-item">
+  <h3 class="resume-item-title" itemprop="award">SOLUX 30th 1st Semester Project Award – Grand Prize</h3>
+  <h4 class="resume-item-details">ICEY &bull; 2025</h4>
+  <p class="resume-item-copy">
+    Awarded the Grand Prize for ICEY, an interactive collaboration platform enabling anonymous team bonding, 
+    AI-powered small talk, balance games, and real-time notifications.
+  </p>
+</div>
 
 </section>
 <!-- end Recognition -->
