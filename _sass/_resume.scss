@@ -230,12 +230,12 @@
         font-size: 11px;
       }
     }
-
-    .icon-link-item .icon-link img {
-  width: 28px;   // 기존 아이콘과 동일 크기
-  height: 28px;
+  }
 }
 
-
-  }
+// 화면용 icon 이미지 스타일
+.icon-link img {
+  width: 28px;
+  height: 28px;
+  display: block;
 }
