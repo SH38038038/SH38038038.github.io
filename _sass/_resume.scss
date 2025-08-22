@@ -231,36 +231,11 @@
       }
     }
 
-    // Language switch button
-// Language switch button
-.language-switch {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-
-  a {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px; // 아이콘과 텍스트 간격
-    padding: 6px 12px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 50%; // 동그라미 모양
-    font-weight: 500;
-    font-size: 14px;
-    
-    &:hover {
-      background-color: #555;
-    }
-
-    .lang-icon {
-      width: 16px;
-      height: 16px;
-    }
-  }
+    .icon-link-item .icon-link img {
+  width: 28px;   // 기존 아이콘과 동일 크기
+  height: 28px;
 }
+
 
   }
 }
