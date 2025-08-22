@@ -12,3 +12,17 @@
 
 // Layouts
 @import "resume";
+
+.language-switch a {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 10px 0;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.language-switch a:hover {
+  background-color: #555;
+}
